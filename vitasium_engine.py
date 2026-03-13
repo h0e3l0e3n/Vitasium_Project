@@ -62,7 +62,7 @@ def get_vitasium_response(user_query, preferred_language="English", chat_history
     # LAYER 1: Fast-Pass (English Hardcoded Keywords)
     query_lower = user_query.lower()
     if any(word in query_lower for word in EMERGENCY_KEYWORDS):
-        return "GLOBAL_EMERGENCY_DETECTED"
+        user_query = "GLOBAL_EMERGENCY_DETECTED"
 
     try:
         vectorstore, llm = load_vitasium_brain()
@@ -125,4 +125,5 @@ def get_vitasium_response(user_query, preferred_language="English", chat_history
 
     except Exception as e:
         print(f"[ENGINE ERROR] Details: {e}")
+
         return "TECHNICAL DIFFICULTY. TRY AGAIN LATER"
