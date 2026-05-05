@@ -34,7 +34,7 @@ While standard AI bots hallucinate medical advice, Vitasium uses a **multi-layer
 3. Upon confirmation, send **"Hi"** or **"Hello"** to begin.
 
 <p align="center">
-  <img src="whatsbot.png" alt="Vitasium Whatsapp Assistant" width="300">
+  <img src="codebot.png" alt="Vitasium Whatsapp Assistant" width="300">
 </p>
 
 **Option B: Manual Join**
