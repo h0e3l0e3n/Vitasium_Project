@@ -51,11 +51,11 @@ While standard AI bots hallucinate medical advice, Vitasium uses a **multi-layer
 3. Begin exploring.
 
 <p align="center">
-  <img src="Vitasium_dashboard_QR.png" alt="Vitasium Clinical Dashboard" width="300">
+  <img src="qrcode.png" alt="Vitasium Clinical Dashboard" width="300">
 </p>
 
 **Option B: Direct Link**
-1. [**Launch Vitasium Web App**](https://vitasium-dashboard.onrender.com)
+1. [**Launch Vitasium Web App**]( https://vitasium-dashboard-b5nf.onrender.com)
 2. **Crucial:** Switch your mobile browser to **"Desktop Site"** mode.
 3. Begin exploring.
 
