@@ -47,7 +47,7 @@ def load_vitasium_brain():
 
     llm = ChatGroq(
         temperature=0.1, 
-        model_name="qwen/qwen3-27b",
+        model_name="meta-llama/llama-4-maverick-17b-128e-instruct",
         groq_api_key=GROQ_API_KEY
     )
 
