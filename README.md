@@ -65,7 +65,7 @@ While standard AI bots hallucinate medical advice, Vitasium uses a **multi-layer
 
 | Layer | Component | Description |
 | :--- | :--- | :--- |
-| **Intelligence** | Llama-3.3-70B | High-speed reasoning via Groq LPU inference engine. |
+| **Intelligence** | gpt-oss-120b         | High-performance text generation and complex reasoning tasks. |
 | **Knowledge** | Pinecone Serverless | Vector database for sub-second clinical context retrieval. |
 | **Embeddings** | Gemini-Embedding-001 | High-dimensional semantic mapping of medical context. |
 | **Deployment** | Flask & Streamlit | Dual-channel interface hosted on Render. |
